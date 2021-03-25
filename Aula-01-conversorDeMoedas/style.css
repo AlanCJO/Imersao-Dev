@@ -68,3 +68,30 @@ input#dolar {
     opacity: 0.5;    
     background: #37ad4f;
 }
+
+.error {
+    color: red;
+    font-weight: 700;
+}
+
+.container-value {
+    display: flex;
+
+    justify-content: center;   
+    padding: 50px;
+    margin-left: 120px;
+    margin-top: 100px;
+}
+
+.container-value input {
+    font-size: 20px;
+    padding: 10px 0;
+
+    text-align: center;
+    border-radius: 0.25rem;
+    width: 20%;
+}
+
+.hidden {
+    visibility: hidden;
+}
